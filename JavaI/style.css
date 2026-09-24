@@ -1,1 +1,40 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  color: #10243f;
+  background: #f5f7fb;
+}
+
+header {
+  padding: 30px 20px;
+  border-bottom: 3px solid #167d78;
+}
+
+header p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+main {
+  padding: 25px 20px;
+  min-height: 300px;
+}
+
+a {
+  color: #1267a8;
+}
+
+li {
+  margin: 10px 0;
+}
+
+footer {
+  padding: 20px;
+}
