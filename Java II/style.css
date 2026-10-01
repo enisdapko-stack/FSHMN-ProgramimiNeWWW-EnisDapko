@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, sans-serif;
+  margin: 1rem;
+  color: #1a2236;
+  background: #fff;
+  line-height: 1.5;
+}
+.skip {
+  position: absolute;
+  left: -999px;
+}
+.skip:focus {
+  left: 1rem;
+  top: 1rem;
+  background: #fff;
+  padding: 0.5rem;
+}
+header p {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+}
+h1 {
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #0f1b3d;
+  border-bottom: 2px solid #0f6b5c;
+}
+nav {
+  display: flex;
+  gap: 0.8rem;
+  margin: 1.5rem 0 1rem;
+  font-size: 0.8rem;
+}
+nav a {
+  color: #1a5fa8;
+}
+.expo {
+  font-size: 0.8rem;
+  margin: 0 0 1.5rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  padding: 1.2rem;
+  font-size: 0.8rem;
+}
+.card h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.15rem;
+  color: #0f1b3d;
+}
+figure {
+  margin: 0;
+  text-align: center;
+}
+figure img {
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  margin: 0 auto 0.8rem;
+  background: #f1f3f6;
+}
+figcaption {
+  text-align: left;
+  margin-bottom: 0.8rem;
+}
+summary {
+  cursor: pointer;
+}
+details p {
+  margin: 0.5rem 0 0;
+}
+footer {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+}
