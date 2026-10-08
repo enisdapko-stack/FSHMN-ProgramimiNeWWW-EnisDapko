@@ -1,11 +1,6 @@
-/* Diagnostiko dhe riparo: konflikt specifike dhe overflow. */
-#poster {
-  color: white;
-  background: white;
-  width: 700px;
-  padding: 80px;
-}
 .poster {
   color: #17263c;
-  width: 100%;
+  background: #ffffff;
+  max-width: 672px;
+  padding: 32px;
 }
