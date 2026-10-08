@@ -2,33 +2,45 @@
 <html lang="sq">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Klubi i debatit · Afisha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klinika e CSS: shpëto afishen</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="Fillimi/gabime.css" />
   </head>
   <body>
-    <a class="skip" href="#main">Kalo te përmbajtja</a>
+    
+
     <header class="site-header">
-      <p class="site-header__kicker">Programimi në WWW · Zgjidhje referente</p>
-      <h1>Klubi i debatit</h1>
+      <p class="subtitle">Programimi në WWW · Zgjidhje reference</p>
+      <h1 class="main-title">Klubi i debatit</h1>
     </header>
 
     <main id="main">
-      <article class="poster" id="poster">
-        <ul class="tags">
-          <li class="tag">Falas</li>
-          <li class="tag tag-limited">Vende të kufizuara: 20</li>
-          <li class="tag">Edhe online</li>
-        </ul>
+      <article class="poster-card">
+        <!-- Tri etiketa të dallueshme edhe pa u bazuar te ngjyra -->
+        <div class="tags-container">
+          <span class="tag tag-free">Falas</span>
+          <span class="tag tag-limited">Vende të kufizuara: 20</span>
+          <span class="tag tag-online">Edhe online</span>
+        </div>
 
-        <h2 class="poster__title">A duhet kampusi të ketë një kopsht të përbashkët?</h2>
-        <p class="poster__meta">8 tetor, ora 16:00 · Salla imagjinare B</p>
-        <p class="poster__text">Sill një argument, dëgjo një mendim tjetër dhe ndrysho një ide.</p>
-        <a class="button" href="#regjistrimi">Kërko informacion</a>
+        <h2 class="poster-title">
+          A duhet kampusi të ketë një kopsht të përbashkët?
+        </h2>
+
+        <p class="poster-meta">
+          8 tetor, ora 16:00 · Salla imagjinare B
+        </p>
+
+        <p class="poster-description">
+          Sill një argument, dëgjo një mendim tjetër dhe ndrysho një ide.
+        </p>
+
+        <a href="#regjistrohu" class="btn-primary">Kërko informacion</a>
       </article>
     </main>
 
-    <footer class="site-footer">Shembull mësimor · Të dhëna të sajuara · Vetëm front end</footer>
+    <footer class="site-footer">
+      Shembull mësimor · Të dhëna të sajuara · Vetëm front end
+    </footer>
   </body>
 </html>
