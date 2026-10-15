@@ -1,1 +1,39 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: system-ui, sans-serif;
+  margin: 1rem;
+}
+
+.offers {
+  width: 100%;
+  padding: 2rem;
+  border: 2px solid navy;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+:focus-visible {
+  outline: 3px solid navy;
+  outline-offset: 3px;
+}
+
+@media (min-width: 800px) {
+  .offers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offer:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+}
